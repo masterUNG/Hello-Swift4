@@ -13,6 +13,23 @@ class ViewController: UIViewController {
     //Explicit การประกาศตัวแปร แบบกำหนดค่า
     var nameString: String = ""
     
+    //นี่คือ View ของ Label
+    @IBOutlet weak var showLabel: UILabel!
+    
+    
+    // นี่ส่วนของการรับค่า มาคำนวน
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    
+    // นี่คือส่วนของ Action
+    @IBAction func changeNameButton(_ sender: Any) {
+        
+        //ตรวจสอบการคลิก
+        print("Click OK Success")
+        
+        
+    }   // changeNameButon
+    
     
     
     
