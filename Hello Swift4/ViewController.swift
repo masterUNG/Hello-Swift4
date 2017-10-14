@@ -9,11 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //Explicit การประกาศตัวแปร แบบกำหนดค่า
+    var nameString: String = ""
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+    }   // Main Function สิ่งแรกที่จะทำงาน
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -21,5 +29,5 @@ class ViewController: UIViewController {
     }
 
 
-}
+}   // Main Class
 
